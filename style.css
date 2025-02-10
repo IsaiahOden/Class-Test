@@ -1,0 +1,79 @@
+/* Basic CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+head {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+#heading-container {
+    display: flex;
+    margin: 20px;
+    flex-direction: row;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    align-self: flex-start;
+    margin-right: auto;
+}
+
+#heading {
+    text-align: center;
+    color: black;
+    align-self: flex-end;
+    margin-right: auto;
+}
+
+#navbar {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:link{
+    color: white;
+}
+
+a::after{
+    content: " | ";
+}
+
+#about {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px;
+}
+
+#sample {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px;
+}
+
+#stick {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+    width: fit-content;
+}
