@@ -11,13 +11,6 @@ body {
     background-color: #f4f4f4;
 }
 
-head {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-}
-
 #heading-container {
     display: flex;
     margin: 20px;
