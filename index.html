@@ -7,22 +7,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="heading-container">
-        <img src="https://static.vecteezy.com/system/resources/thumbnails/007/752/415/small/abstract-geometric-logo-icon-design-free-vector.jpg" alt="generic logo" id="logo"/>
-        <h1 id="heading">About Me Page!</h1>
+    <div class = "container" id ="header-container">
+        <h1 id ="Name-Title">About Isaiah</h1>
     </div>
-    <div id="navbar">
-        <a href="Foods.html">Food I Eat</a>
-        <a href="Hobbies.html">Things I Do for Fun</a>
-        <a href="Work.html">What Happens When I work</a>
-        <a href="index.html">Home</a>
-    </div>
-    <section id="about">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Stick_Figure.svg/800px-Stick_Figure.svg.png" alt="stick figure" id="stick"/>
-        <p id="sample">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nisi cumque necessitatibus, tempora totam architecto facere, porro, eos voluptas ad voluptatem? Repudiandae, ullam reprehenderit aliquam voluptas quas suscipit minus! Libero.
-        </p>
-    </section>
+    <script>
+        function getRandomAge(max) {
+            return Math.floor(Math.random() * max);
+        }
+        document.write('<p class = "facts" id = "age">This is Where my Age Goes!!!</p>');
+        document.getElementById("age").innerHTML = "I am " + getRandomAge(100) + " years old!";
+        console.log("Hello, World!");
+        document.write('Super Hello, World!');
+        document.write('<img src="https://th.bing.com/th/id/OIP.qfsXyQjxkzq5AcLD_RzcRAHaHg?rs=1&pid=ImgDetMain" alt="test image">');
+    </script>
 </body>
 </html>
 
